@@ -1,6 +1,6 @@
 function loadimages(urls_array){
 
-    var prefix = "http://lovell.ipage.com/design/images/";
+    var prefix = "http://lovell.ipage.com/drawings/images/";
     urls_array.forEach(function(d, i){
         urls_array[i] = prefix+d;
     });

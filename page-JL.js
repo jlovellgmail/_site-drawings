@@ -17,7 +17,7 @@ jQuery(document).ready(function($) {
 
 	// 3/10
 	//console.log("we're here");
-	var prefix = "http://lovell.ipage.com/design/images/";
+	var prefix = "http://lovell.ipage.com/drawings/images/";
 	$(".contentcontainer").each(function(){
 		$(this).parents('li').attr('data-order', $(this).parents('li').index());
 	});
